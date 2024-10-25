@@ -4,10 +4,6 @@ Este repositório contém uma aplicação desenvolvida em Python utilizando Stre
 
 ## Índice
 
-```
-
-```
-
 - [Visão Geral](#visão-geral)
 - [Bibliotecas Utilizadas](#bibliotecas-utilizadas)
 - [Como Executar a Aplicação](#como-executar-a-aplicação)
