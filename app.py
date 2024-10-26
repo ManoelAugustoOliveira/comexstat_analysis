@@ -157,7 +157,7 @@ apex_chart_kg = ApexBarChart(
     value_unit='KG')
 
 # Renderizar utilizando o streamlit components
-st.markdown(f"### Total {options_analysis} por Ano em (KG)")
+st.markdown(f"### {options_analysis} por Ano em (KG)")
 st.components.v1.html(apex_chart_kg, height=400)
 
 # Gráfico mostrando o total em U$ importado ou exportado por ano
