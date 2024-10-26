@@ -176,7 +176,7 @@ apex_chart_us = ApexBarChart(
 )
 
 # Renderizar utilizando o streamlit components
-st.markdown(f"### Total {options_analysis} por Ano em (U$)")
+st.markdown(f"### {options_analysis} por Ano em (U$)")
 st.components.v1.html(apex_chart_us, height=400)
 
 # Gráfico mostrando o total em KG importado ou exportado por país
@@ -195,7 +195,7 @@ apex_chart_country_kg = ApexBarChart(
 )
 
 # Renderizar utilizando o streamlit components
-st.markdown(f"### Total {options_analysis} por País (KG)")
+st.markdown(f"### {options_analysis} por País (KG)")
 st.components.v1.html(apex_chart_country_kg, height=400)
 
 # Gráfico mostrando o total em U$ importado ou exportado por país
@@ -209,12 +209,12 @@ apex_chart_country_us = ApexBarChart(
     y_values_country_us,      
     x_title='Países',      
     y_title='Valores',         
-    bar_color="#8C3F23",       
+    bar_color="#09735F",       
     value_unit='U$',           
 )
 
 # Renderizar utilizando o streamlit components
-st.markdown(f"### Total {options_analysis} por País (U$)")
+st.markdown(f"### {options_analysis} por País (U$)")
 st.components.v1.html(apex_chart_country_us, height=400)
 
 #################################################### ESTADO (KG) ########################################################################
